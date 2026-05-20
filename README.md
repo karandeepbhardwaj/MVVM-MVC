@@ -8,6 +8,9 @@ brew install maven
 ## Import Project in IntelliJ
 `Open > pom.xml > Open as Project`
 
+## Firebase Admin Credentials
+Copy `firebase-admin-key.example.json` to `firebase-admin-key.json` and fill it with a local Firebase service account key. The real key file is ignored by git.
+
  Run:
  ```shell
  mvn install
